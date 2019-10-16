@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+   <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="//lab.subinsb.com/projects/jquery/core/jquery-2.1.1.js"></script>
+    <script src="//lab.subinsb.com/projects/jquery/voice/recorder.js"></script>
+    <script src="//lab.subinsb.com/projects/jquery/voice/jquery.voice.min.js"></script>
+    <script src="rec.js"></script>
+   </head>
+   <body >
+  <div class="bg">
+    <div id="content" >
+      <h2 style="background-color:rgb(60, 179, 113); text-align: center;" > <u>&#128564; <font color="#121010">SLEEP BABY SLEEP</font> &#128564;</u></h2>
+        <span> &#128557;&#128557;&#128557;&#128557;&#128557;&#128557;&#128557;&#128557;&#128557;&#128557;&#128557;&#128557;&#128557;&#128557;&#128557;</span>
+     <br>
+      <audio controls   class="button " src="baby-crying-01.mp3" id="audio"></audio>
+  <audio id="sound" src="baby-crying-01.mp3" preload="auto"></audio>
+
+ <br><br>
+ 
+  <button  style=" margin-left: 40px;" onclick="document.getElementById('sound').play();document.getElementById('sound1').play();"><b>RECORD &#9210;</b></button> 
+   <button style=" margin-left: 80px;"onclick=" "><strong> STOP &#9209;</strong></button>
+   <br><br>
+<span>&#128564;&#128564;&#128564;&#128564;&#128564;&#128564;&#128564;&#128564;&#128564;&#128564;&#128564;&#128564;&#128564;&#128564;&#128564;</span>
+<br>
+ <audio controls  class="button " src="Soft Relaxing Baby Sleep Music (2).m4a" id="audio"></audio>
+<audio id="sound1" src="Soft Relaxing Baby Sleep Music (2).m4a" preload="auto"></audio>
+<br><br>
+  <button style=" margin-left: 140px;"onclick="document.getElementById('sound1').play();"><strong>PLAY &#9199;</strong></button>
+   </div>
+        </div>
+      <style>
+      .button{
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0px 5px;
+        padding: 5px 12px;
+        cursor: pointer;
+        outline: none;
+        font-size: 13px;
+        text-decoration: none !important;
+        text-align: center;
+        color:green;
+        background-color: green;
+        background-image: linear-gradient(top,#4D90FE, #4787ED);
+        background-image: -ms-linear-gradient(top,#4D90FE, #4787ED);
+        background-image: -o-linear-gradient(top,#4D90FE, #4787ED);
+        background-image: linear-gradient(top,#4D90FE, #4787ED);
+        border: 1px solid #4787ED;
+        box-shadow: 0 1px 3px green;
+      }
+      a.button{
+        color: #fff;
+      }
+      .button:hover{
+        box-shadow: inset 0px 1px 1px #8C8C8C;
+      }
+      .button.disabled{
+        box-shadow:none;
+        opacity:0.7;
+      }
+  body, html {
+  height: 100%;
+  margin: 0;
+}
+.bg {
+  /* The image used */
+  background-image: url("babyy.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.right {
+  position: absolute;
+  top: 70px;
+  right: 16px;
+}
+      </style>
+    </div>
+  <div>
+   </body>
+</html>
